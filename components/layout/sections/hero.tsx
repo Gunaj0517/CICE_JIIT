@@ -14,34 +14,40 @@ export const HeroSection = () => {
         <div className="text-center space-y-8">
           <Badge variant="outline" className="text-sm py-2">
             <span className="mr-2 text-primary">
-              <Badge>New</Badge>
+              {/* <Badge>🙋‍♀️</Badge> */}
             </span>
-            <span> Design is out now! </span>
+            <span> Hey there 👋</span>
           </Badge>
 
           <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
-            <h1>
+            <h2> 
               Creativity and Innovation
-              <span className="text-transparent px-3 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
+              
+            </h2>
+            <h1>
+            Cell In Electronics
+              
+            </h1>
+            <h1>
+             
+            </h1>
+
+            <span className="text-transparent px-3 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text text-6xl">
                CICE
               </span>
-            </h1>
-            <h1>
-              In Electronics
-            </h1>
           </div>
           
 
           <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-            {`We're more than just a tool, we're a community of passionate
-            creators. Get access to exclusive resources, tutorials, and support.`}
+            {`We're more than just a hub, we're a community of passionate
+            people. Get access to exclusive events and support.`}
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
-            <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
+            {/* <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
               Get Started
               <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
-            </Button>
+            </Button> */}
 
             {/* <Button
               asChild
@@ -66,8 +72,8 @@ export const HeroSection = () => {
             className="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-secondary  border-t-primary/30"
             src={
               theme === "light"
-                ? "/hero-image-light.jpeg"
-                : "/hero-image-dark.jpeg"
+                ? "/cice.png"
+                : "/cice.png"
             }
             alt="dashboard"
           />

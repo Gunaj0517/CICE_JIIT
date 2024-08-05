@@ -14,44 +14,41 @@ interface ServiceProps {
   title: string;
   pro: ProService;
   description: string;
-}
-const serviceList: ServiceProps[] = [
+}const serviceList: ServiceProps[] = [
   {
-    title: "Custom Domain Integration",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
+    title: "Regular Workshops🚨",
+    description: "We host workshops and seminars on the latest tech trends and breakthroughs.",
     pro: 0,
   },
   {
-    title: "Social Media Integrations",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
+    title: "Fun Fact😉",
+    description: "CICE features the largest Student Activity Room on campus.",
     pro: 0,
   },
   {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
+    title: "Free Components🆓",
+    description: "At CICE, unlike other hubs, we provide free components for projects.",
     pro: 0,
   },
   {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
-    pro: 1,
+    title: "Proper Guidance✨",
+    description: "Our hub provides students guidance from experienced faculty members and successful alumni.",
+    pro: 0,
   },
 ];
 
 export const ServicesSection = () => {
   return (
     <section id="services" className="container py-24 sm:py-32">
-      <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
+      {/* <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
         Services
-      </h2>
+      </h2> */}
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Grow Your Business
+        Key Features ^_^
       </h2>
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        From marketing and sales to operations and strategy, we have the
+        We have the
         expertise to help you achieve your goals.
       </h3>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>

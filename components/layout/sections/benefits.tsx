@@ -10,28 +10,30 @@ interface BenefitsProps {
 
 const benefitList: BenefitsProps[] = [
   {
-    icon: "Blocks",
-    title: "Build Brand Trust",
+    icon: "Sparkle",
+    title: "POWER 2.0",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
-  },
-  {
-    icon: "LineChart",
-    title: "More Leads",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
-  },
-  {
-    icon: "Wallet",
-    title: "Higher Conversions",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "A Home Automation Workshop where participants explored smart home technology and prizes were distributed. ",
   },
   {
     icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    title: "SPARK",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Showcases innovative student projects, emphasizing academic achievements with substantial cash prizes for top projects.",
+  },
+
+  {
+    icon: "Sparkle",
+    title: "VIDYUT",
+    description:
+      "The Technical fest of the CICE Hub , featuring a project exhibition ECE students minor projects.",
+  },
+
+  {
+    icon: "Sparkle",
+    title: "POWER 2.1",
+    description:
+      "A PCB fabrication workshop dedicated to volunteer training and fabricating students' own PCBs, awarding a prize for the best design.",
   },
 ];
 
@@ -42,13 +44,11 @@ export const BenefitsSection = () => {
         <div>
           <h2 className="text-lg text-primary mb-2 tracking-wider">About US</h2>
 
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Key Features!
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Events💫</h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+            At CICE, we nurture innovation and excellence in electronics,
+            empowering students with comprehensive training and hands-on
+            experience.🧠
           </p>
         </div>
 
