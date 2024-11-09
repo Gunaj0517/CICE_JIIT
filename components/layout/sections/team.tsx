@@ -202,6 +202,19 @@ export const TeamSection = () => {
         },
       ],
     },
+    {
+      imageUrl:
+        "/images/aryan.jpg",
+      firstName: "Aryan",
+      lastName: "Agarwal",
+      positions: ["PR & Marketing Head"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/aditya-sinha-7aa932268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        },
+      ],
+    },
   ];
   const socialIcon = (socialName: string) => {
     switch (socialName) {
