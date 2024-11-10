@@ -25,141 +25,193 @@ interface SocialNetworkProps {
 export const TeamSection = () => {
   const teamList: TeamProps[] = [
     {
-      imageUrl: "https://i.pravatar.cc/250?img=58",
-      firstName: "Leo",
-      lastName: "Miranda",
-      positions: ["Vue Fronted devloper", "Creator of this website"],
+      imageUrl:
+        "/images/ANSHIT.jpg",
+      firstName: "Anshit ",
+      lastName: "Gupta",
+      positions: ["PRESIDENT "],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/anshit-gupta-ag101218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        },
+      ],
+    },
+
+    {
+      imageUrl:
+        "/images/parul.jpg",
+      firstName: "Parul",
+      lastName: "Mundlia",
+      positions: ["Vice President "],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/parul-mundalia-720b57277/",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/Parulll3008",
         },
+      ],
+    },
+    {
+      imageUrl: "/images/Dhruv.jpg",
+      firstName: "Dhruv Bal ",
+      lastName: "Dixit",
+      positions: ["Organising Secretary"],
+      socialNetworks: [
         {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/dhruv-bal-dikshit-a57336244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
       ],
     },
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Elizabeth",
-      lastName: "Moore",
-      positions: ["UI/UX Designer"],
+        "/images/priyanshu.webp",
+      firstName: "Priyanshu",
+      lastName: "Aggarwal",
+      positions: ["Tech ECE Head"],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
+          url: "https://www.linkedin.com/in/priyanshu-aggarwal-900860250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
       ],
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "David",
-      lastName: "Diaz",
-      positions: ["Machine Learning Engineer", "TensorFlow Tinkerer"],
+      imageUrl: "/images/Rishika.jpeg",
+      firstName: "Rishika",
+      lastName: "Aggarwal",
+      positions: ["Tech Head CSE"],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/rishika-aggarwal-462b2a280/",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/rishika-on-git",
         },
       ],
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1573497161161-c3e73707e25c?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Sarah",
-      lastName: "Robinson",
-      positions: ["Cloud Native Developer", " Kubernetes Orchestrator"],
+      imageUrl: "/images/mehulBansal.jpeg",
+      firstName: "Mehul",
+      lastName: "Bansal",
+      positions: ["Vice Tech Head CSE"],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/mehul-bansal-27173b254/",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/mehul1409",
         },
+      ],
+    },
+
+    {
+      imageUrl:
+        "/images/Kashish.jpg",
+      firstName: "Kashish",
+      lastName: "Porwal",
+      positions: ["Content and Creative Head"],
+      socialNetworks: [
         {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
+          name: "LinkedIn",
+          url: "http://linkedin.com/in/kashish-porwal-328a63289",
         },
       ],
     },
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1616805765352-beedbad46b2a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Michael",
-      lastName: "Holland",
-      positions: ["DevOps Engineer", "CI/CD Pipeline Mastermind"],
+        "/images/Madan.JPG",
+      firstName: "Madan Gopal",
+      lastName: "Jha",
+      positions: ["Cinematography Head"],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Zoe",
-      lastName: "Garcia",
-      positions: ["JavaScript Evangelist", "Deno Champion"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/madan-gopal-jha-380865255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/Madan2468",
         },
       ],
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Evan",
-      lastName: "James",
-      positions: ["Backend developer"],
+      imageUrl: "/images/Mahak Salecha.jpeg",
+      firstName: "Mahak",
+      lastName: "Salecha",
+      positions: ["Vice Tech Ece Head"],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
+          url: "https://www.linkedin.com/in/mahak-salecha-9b5073271/",
         },
       ],
     },
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Pam",
-      lastName: "Taylor",
-      positions: ["Fullstack developer", "UX researcher"],
+        "/images/Rashi.jpeg",
+      firstName: "Rashi",
+      lastName: "Mall",
+      positions: ["Management Head"],
       socialNetworks: [
         {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
+          name: "LinkedIn",
+          url: "https://in.linkedin.com/in/rashi-mall-b1b878271",
+        },
+        {
+          name: "Github",
+          url: "https://github.com/rmall2003"
+        },
+      ],
+    },
+    {
+      imageUrl:
+        "/images/preyerna.jpeg",
+      firstName: "Preyerna",
+      lastName: "Srivastava",
+      positions: ["VICE TECH ECE HEAD"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "www.linkedin.com/in/preyerna",
+        },
+        {
+          name: "Github",
+          url: "https://github.com/preyerna",
+        },
+      ],
+    },    
+    {
+      imageUrl:
+        "/images/aditya.jpg",
+      firstName: "Aditya",
+      lastName: "Sinha",
+      positions: ["Digital Head"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/aditya-sinha-7aa932268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        },
+      ],
+    },
+    {
+      imageUrl:
+        "/images/aryan.jpg",
+      firstName: "Aryan",
+      lastName: "Agarwal",
+      positions: ["PR & Marketing Head"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/aditya-sinha-7aa932268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
       ],
     },
@@ -175,6 +227,7 @@ export const TeamSection = () => {
     }
   };
 
+
   return (
     <section id="team" className="container lg:w-[75%] py-24 sm:py-32">
       <div className="text-center mb-8">
@@ -182,10 +235,12 @@ export const TeamSection = () => {
           Team
         </h2>
 
+
         <h2 className="text-3xl md:text-4xl text-center font-bold">
-          The Company Dream Team
+         Amazing Team :)
         </h2>
       </div>
+
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         {teamList.map(
@@ -215,14 +270,14 @@ export const TeamSection = () => {
               {positions.map((position, index) => (
                 <CardContent
                   key={index}
-                  className={`pb-0 text-muted-foreground ${
-                    index === positions.length - 1 && "pb-6"
-                  }`}
+                  className={`pb-0 text-muted-foreground ${index === positions.length - 1 && "pb-6"
+                    }`}
                 >
                   {position}
                   {index < positions.length - 1 && <span>,</span>}
                 </CardContent>
               ))}
+
 
               <CardFooter className="space-x-4 mt-auto">
                 {socialNetworks.map(({ name, url }, index) => (
@@ -243,3 +298,7 @@ export const TeamSection = () => {
     </section>
   );
 };
+
+
+
+

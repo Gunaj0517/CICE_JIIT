@@ -5,7 +5,7 @@ import { FooterSection } from "@/components/layout/sections/footer";
 import { HeroSection } from "@/components/layout/sections/hero";
 
 import { ServicesSection } from "@/components/layout/sections/services";
-import { SponsorsSection } from "@/components/layout/sections/sponsors";
+// import { SponsorsSection } from "@/components/layout/sections/sponsors";
 import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 import Gallery from "@/components/layout/sections/gallery";
@@ -21,11 +21,11 @@ export default function Home() {
     
       <ServicesSection />
       <TeamSection />
-      <TestimonialSection />
+      {/* <TestimonialSection /> */}
   
       
       <FAQSection />
-      <SponsorsSection />
+      {/* <SponsorsSection /> */}
       <FooterSection />
     </>
   );

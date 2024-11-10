@@ -21,19 +21,19 @@ export const FooterSection = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Contact Us</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Github
+              <Link href="cice.jiitn@gmail.com" className="opacity-60 hover:opacity-100">
+                Email
               </Link>
             </div>
 
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
-                Twitter
+                
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="https://www.instagram.com/cice_jiit/" className="opacity-60 hover:opacity-100">
                 Instagram
               </Link>
             </div>
@@ -41,20 +41,16 @@ export const FooterSection = () => {
 
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Socials</h3>
+           
+
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Github
+              <Link href="https://www.facebook.com/cicejiit" className="opacity-60 hover:opacity-100">
+               Facebook
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Twitter
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="https://www.instagram.com/cice_jiit/" className="opacity-60 hover:opacity-100">
                 Instagram
               </Link>
             </div>
@@ -64,14 +60,8 @@ export const FooterSection = () => {
         <Separator className="my-6" />
         <section className="">
           <h3 className="">
-            &copy; 2024 Designed and developed by
-            <Link
-              target="_blank"
-              href="https://github.com/rishika-on-git"
-              className="text-primary transition-all border-primary hover:border-b-2 ml-1"
-            >
-              Rishika
-            </Link>
+            &copy; CICE JIIT
+           
           </h3>
         </section>
       </div>
