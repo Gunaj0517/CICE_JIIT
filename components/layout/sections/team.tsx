@@ -188,7 +188,20 @@ export const TeamSection = () => {
           url: "https://github.com/preyerna",
         },
       ],
-    },    
+    },   
+    {
+      imageUrl:
+        "/images/Anshul.jpg",
+      firstName: "Anshul",
+      lastName: "Kansal",
+      positions: ["Digital Head"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/anshul-kansal-5740a2254/",
+        },
+      ],
+    }, 
     {
       imageUrl:
         "/images/aditya.jpg",
@@ -215,6 +228,8 @@ export const TeamSection = () => {
         },
       ],
     },
+
+  
   ];
   const socialIcon = (socialName: string) => {
     switch (socialName) {
